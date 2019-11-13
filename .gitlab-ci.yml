@@ -1,0 +1,31 @@
+image: node:8-alpine
+
+stages:
+  - lint
+  - build
+  - publish
+
+before_script:
+  - apk add make
+  - npm install
+
+lint:
+  stage: lint
+  script:
+    - make lint
+
+build:
+  stage: build
+  script:
+    - npm pack
+  artifacts:
+    paths:
+      - eslint-config-reforis-*.tgz
+
+publish:
+  stage: publish
+  only:
+    refs:
+      - master
+  script:
+    - make publish

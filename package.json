@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-reforis",
+  "version": "1.0.0",
+  "description": "ESLint configuration for reForis and its plugins.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.labs.nic.cz:turris/reforis/eslint-config-reforis.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "CZ.NIC, z.s.p.o.",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 6"
+  },
+  "devDependencies": {
+    "eslint": ">= 6"
+  },
+  "files": []
+}
