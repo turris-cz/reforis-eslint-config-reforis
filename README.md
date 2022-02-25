@@ -13,7 +13,7 @@ optimizations.
 
 ## Features
 
--   based on the the popular
+-   based on the popular
     [javascript code style from Airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 -   with [React](https://reactjs.org/),
     [react-hooks](https://reactjs.org/docs/hooks-intro.html), and
@@ -124,4 +124,4 @@ name. For example, in your project that wants to use your shareable config:
 
 ## LICENSE
 
-[GNU GPL v3](LICENSE)
+[GPL-3.0-or-later](LICENSE)
