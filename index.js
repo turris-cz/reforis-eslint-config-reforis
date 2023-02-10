@@ -1,9 +1,14 @@
 /**
- * @type {import('eslint').ESLint.Options}
+ * Enables ESLint to use dependencies of the shared config
+ * @see https://github.com/eslint/eslint/issues/3458
  */
+require("./patch/modern-module-resolution");
 
 const path = require("path");
 
+/**
+ * @type {import('eslint').ESLint.Options}
+ */
 module.exports = {
     extends: [
         // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
