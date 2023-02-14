@@ -1,0 +1,35 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to
+[Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [2.0.0] - 2022-02-25
+
+### Added
+
+-   Added Prettier & Prettier configuration file
+-   Added GPLv3 license (GNU General Public License v3)
+-   Added CHANGELOG
+
+### Changed
+
+-   Updated ESLint to the latest version
+-   Updated ESLint configs & plugins to the latest versions
+-   Updated GitLab CI image to Node.js v16
+-   Filled README with description & other information
+
+## [1.0.0] - 2019-11-12
+
+-   Initial version
+
+[unreleased]:
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.0...master
+[2.0.0]:
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v1.0.0...v2.0.0
+[1.0.0]:
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/tags/v1.0.0
