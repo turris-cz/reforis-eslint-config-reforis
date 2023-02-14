@@ -10,7 +10,8 @@
     "main": "index.js",
     "files": [
         "index.js",
-        "prettier.config.js"
+        "prettier.config.js",
+        "patch"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
