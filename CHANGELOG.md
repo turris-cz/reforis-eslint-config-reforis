@@ -8,7 +8,21 @@ and this project adheres to
 
 ## [Unreleased]
 
-## [2.0.0] - 2022-02-25
+## [2.0.1] - 2023-02-15
+
+### Added
+
+-   Added missing patch folder
+
+### Changed
+
+-   Updated eslint to the latest version
+
+### Fixed
+
+-   Fixed access token in publish script
+
+## [2.0.0] - 2023-02-14
 
 ### Added
 
@@ -28,7 +42,9 @@ and this project adheres to
 -   Initial version
 
 [unreleased]:
-    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.0...master
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.1...master
+[2.0.1]:
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.0...v2.0.1
 [2.0.0]:
     https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v1.0.0...v2.0.0
 [1.0.0]:

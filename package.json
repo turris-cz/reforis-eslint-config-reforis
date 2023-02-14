@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-reforis",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "ESLint configuration for reForis and its plugins.",
     "author": "CZ.NIC, z.s.p.o.",
     "license": "GPL-3.0-or-later",
