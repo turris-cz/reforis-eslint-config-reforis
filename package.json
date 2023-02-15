@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-reforis",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "ESLint configuration for reForis and its plugins.",
     "author": "CZ.NIC, z.s.p.o.",
     "license": "GPL-3.0-or-later",
@@ -10,7 +10,8 @@
     "main": "index.js",
     "files": [
         "index.js",
-        "prettier.config.js"
+        "prettier.config.js",
+        "patch"
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -30,7 +31,7 @@
         "eslint-plugin-react-hooks": "^4.6.0"
     },
     "peerDependencies": {
-        "eslint": "^8.33.0",
+        "eslint": "^8.34.0",
         "prettier": "^2.8.4"
     },
     "repository": {
