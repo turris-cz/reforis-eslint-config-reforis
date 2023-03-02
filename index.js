@@ -48,8 +48,6 @@ module.exports = {
         jest: true,
     },
     rules: {
-        quotes: ["error", "double"],
-        indent: ["error", 4],
         "react/jsx-indent": ["error", 4],
         "react/jsx-indent-props": ["error", 4],
         "no-console": "error",
