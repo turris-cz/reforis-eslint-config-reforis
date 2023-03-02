@@ -8,6 +8,12 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.0.2] - 2023-03-02
+
+### Fixed
+
+-   Fix forced double quotes & indentation clash with Prettier
+
 ## [2.0.1] - 2023-02-15
 
 ### Added
@@ -42,7 +48,9 @@ and this project adheres to
 -   Initial version
 
 [unreleased]:
-    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.1...master
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.2...master
+[2.0.2]:
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.1...v2.0.2
 [2.0.1]:
     https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.0...v2.0.1
 [2.0.0]:
