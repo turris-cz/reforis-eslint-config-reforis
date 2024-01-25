@@ -8,6 +8,14 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.1.0] - 2024-01-25
+
+### Changed
+
+-   Updated dependencies to the latest ones
+-   Fixed supported engines to the latest node versions
+-   NPM audit fix
+
 ## [2.0.2] - 2023-03-02
 
 ### Fixed

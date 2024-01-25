@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-reforis",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "description": "ESLint configuration for reForis and its plugins.",
     "author": "CZ.NIC, z.s.p.o.",
     "license": "GPL-3.0-or-later",
@@ -21,7 +21,7 @@
         "@babel/core": "^7.23.7",
         "@babel/eslint-parser": "^7.23.3",
         "@babel/preset-react": "^7.23.3",
-        "@rushstack/eslint-patch": "^1.7.0",
+        "@rushstack/eslint-patch": "^1.7.1",
         "eslint-config-airbnb": "^19.0.4",
         "eslint-config-prettier": "^8.6.0",
         "eslint-plugin-import": "^2.29.1",
