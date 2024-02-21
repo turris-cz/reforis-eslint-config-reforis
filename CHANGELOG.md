@@ -8,6 +8,17 @@ and this project adheres to
 
 ## [Unreleased]
 
+## [2.1.1] - 2024-02-21
+
+### Added
+
+-   Added support for JSX in Babel options for parser
+
+### Changed
+
+-   Updated Node.js version to v21 in .gitlab-ci.yml
+-   Updated dependencies and add module exports
+
 ## [2.1.0] - 2024-01-25
 
 ### Changed
@@ -56,7 +67,11 @@ and this project adheres to
 -   Initial version
 
 [unreleased]:
-    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.2...master
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.1.1...master
+[2.1.1]:
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.1.0...v2.1.1
+[2.1.0]:
+    https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.2...v2.1.0
 [2.0.2]:
     https://gitlab.nic.cz/turris/reforis/eslint-config-reforis/-/compare/v2.0.1...v2.0.2
 [2.0.1]:
