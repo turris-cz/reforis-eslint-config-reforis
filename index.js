@@ -33,6 +33,9 @@ module.exports = {
         babelOptions: {
             presets: ["@babel/preset-react"],
         },
+        ecmaFeatures: {
+            jsx: true,
+        },
     },
     globals: {
         _: "readonly",
